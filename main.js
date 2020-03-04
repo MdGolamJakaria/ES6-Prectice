@@ -5,7 +5,7 @@ const submitButton = document.getElementById("submit-button");
         const passwordNumber = parseFloat(password);
 
 
-        document.getElementById("show-password").innerText = passwordNumber;
+        document.getElementById("show-password").innerText = password;
    
         document.getElementById("password").value="";
     })
