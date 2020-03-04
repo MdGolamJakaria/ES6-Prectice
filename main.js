@@ -12,5 +12,6 @@ const submitButton = document.getElementById("submit-button");
 
 const resetButton = document.getElementById("reset-button");
     resetButton.addEventListener("click", function(){
-        document.getElementById("reset-button").reset();
+        
+        window.location.reload();
     })
