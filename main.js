@@ -1,7 +1,7 @@
 
 const submitButton = document.getElementById("submit-button");
     submitButton.addEventListener("click",function(){
-        const password = document.getElementById("password").Value;
+        const password = document.getElementById("password").value;
         const passwordNumber = parseFloat(password);
 
 
